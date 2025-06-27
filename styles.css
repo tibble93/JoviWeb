@@ -17,25 +17,40 @@ body {
   gap: 50px;
   padding: 50px;
 }
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
 
 .me {
   width: 200px;        
   border-radius: 12px; 
-  margin: 0;
 }
 
 button.show-button {
   display: inline-block;
 
+
 }
-.Menu button {
-  width: 150px;         
-  padding: 10px;        
-  font-size: 16px;      
-  text-align: center;   
-  align-self: flex-start; 
+.menu button {
+  width: 150px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #89cdd6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
 }
-.Menu button:hover {
+.menu button:hover {
   background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   transition: background-color 0.3s;
