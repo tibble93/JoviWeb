@@ -35,3 +35,8 @@ button.show-button {
   text-align: center;   
   align-self: flex-start; 
 }
+.Menu button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
