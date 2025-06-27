@@ -20,4 +20,11 @@ body {
 
 button.show-button {
   display: inline-block;
+
+}
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
