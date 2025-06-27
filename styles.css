@@ -13,12 +13,14 @@ body {
 .wrapper {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
-  padding: 50px;
+  justify-content: flex-start;
+  gap: 50px; 
+  padding: 30px;
 }
 .me {
-  margin-left: 80px;
-  width: 180px;
+  width: 200px;        
+  border-radius: 12px; 
+  margin: 0;
 }
 
 button.show-button {
