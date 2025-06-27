@@ -1,0 +1,12 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
