@@ -17,9 +17,9 @@ body {
   padding: 50px;
 }
 .me {
-  width: 200px;
-  border-radius: 12px;
-  margin: 0; 
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 button.show-button {
