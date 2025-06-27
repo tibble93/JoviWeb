@@ -17,11 +17,8 @@ body {
   padding: 50px;
 }
 .me {
-  display: block;
-  margin-left: 0;
-  margin-right: auto;
-          
-  border-radius: 12px;  
+  margin-left: 80px;
+  width: 180px;
 }
 
 button.show-button {
