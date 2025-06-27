@@ -12,11 +12,12 @@ body {
 }
 .wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start; 
   justify-content: flex-start;
-  gap: 50px; 
-  padding: 30px;
+  gap: 50px;
+  padding: 50px;
 }
+
 .me {
   width: 200px;        
   border-radius: 12px; 
