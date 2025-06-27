@@ -27,3 +27,8 @@ button.show-button {
   display: inline-block;
 
 }
+.Menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
