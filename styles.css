@@ -10,6 +10,12 @@ body {
   text-align: center;
   padding-top: 50px;
 }
+.me{
+  width: 200px;
+  border: 4px solid white;
+  border-radius: 12px;
+  margin-top: 20px;
+}
 
 button.show-button {
   display: inline-block;
