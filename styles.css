@@ -11,3 +11,6 @@ body {
   padding-top: 50px;
 }
 
+button.show-button {
+  display: inline-block;
+}
