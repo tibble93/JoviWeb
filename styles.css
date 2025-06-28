@@ -34,12 +34,12 @@ body {
   border-radius: 12px; 
 }
 
-button.show-button {
+button.nav-button {
   display: inline-block;
 
 
 }
-.menu button {
+.menu navi-button {
   width: 150px;
   padding: 10px;
   font-size: 18px;
@@ -50,7 +50,7 @@ button.show-button {
   border-radius: 20px;
   cursor: pointer;
 }
-.menu button:hover {
+.menu navi-button:hover {
   background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   transition: background-color 0.3s;
@@ -59,7 +59,6 @@ button.show-button {
   padding-top: 20px;
 }
 .social img {
-  gap: 30px;
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
