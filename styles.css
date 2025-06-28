@@ -56,9 +56,7 @@ button.show-button {
   transition: background-color 0.3s;
 }
 .social {
-  display: flex;
   gap: 10px;
-  justify-content: flex-start;
   padding-top: 20px;
 }
 .social img {
