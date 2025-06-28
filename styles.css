@@ -56,10 +56,10 @@ button.show-button {
   transition: background-color 0.3s;
 }
 .social {
-  gap: 30px;
   padding-top: 20px;
 }
 .social img {
+  gap: 30px;
   border-radius: 50%;
   transition: transform 0.3s ease;
 }
