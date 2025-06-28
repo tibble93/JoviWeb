@@ -55,3 +55,16 @@ button.show-button {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+.social {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.social img {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.social img:hover {
+  transform: scale(1.1);
+}
