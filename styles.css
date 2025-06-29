@@ -43,7 +43,7 @@ body {
   }
   70% {
     transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(205, 199, 199, 0.954);
+    box-shadow: 0 0 10px rgba(86, 79, 79, 0.954);
   }
   100% {
     transform: scale(1);
