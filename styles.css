@@ -57,7 +57,6 @@ body {
   display: flex;
   gap: 15px;
 }
-
 #modeToggle {
   background-color: transparent;
   color: yellow;
@@ -79,7 +78,16 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
-
+.toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.toggle-button:active {
+  transform: scale(0.98);
+  background-color: #1c5a89;
+}
+/*-------------------------------------------------------------*/
 /* Navigational button attributes */
 .navi-button {
   display: inline-block;
