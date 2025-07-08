@@ -19,14 +19,11 @@ body {
 
 .top_nav {
   position: relative;
-  top: 0;
-  left: 0;
   width: 100%;
-  background-color: #cfcdcd; 
+  background-color: #cfcdcd;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
-  gap: 15px;
   padding: 10px 0;
   z-index: 1000;
 }
