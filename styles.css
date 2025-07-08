@@ -51,9 +51,12 @@ body {
 }
 
 /* This specifically targets the dark/light mode toggle button */
+.center-nav {
+  display: flex;
+  gap: 15px;
+}
+
 #modeToggle {
-  margin-right: auto;
-  margin-left: 20px;
   background-color: transparent;
   color: yellow;
   font-size: 1.5rem;
