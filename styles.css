@@ -18,16 +18,16 @@ body {
 }
 
 .top_nav {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   background-color: #cfcdcd; 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 15px;
-  padding: 10px;
+  padding: 10px 0;
   z-index: 1000;
 }
 
@@ -51,12 +51,19 @@ body {
     box-shadow: 0 0 0px rgba(255, 255, 255, 0);
   }
 }
-
-/* This specifically targets the dark/light mode toggle button */
 .center-nav {
   display: flex;
   gap: 15px;
 }
+/* This specifically targets the dark/light mode toggle button */
+.left-nav {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
 #modeToggle {
   background-color: transparent;
   color: yellow;
@@ -79,7 +86,7 @@ body {
   cursor: pointer;
 }
 .toggle-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(123, 83, 17, 0.2);
   cursor: pointer;
   transition: background-color 0.3s;
 }
