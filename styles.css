@@ -23,7 +23,7 @@ body {
   width: 100%;
   background-color: #cfcdcd; 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
   padding: 10px;
