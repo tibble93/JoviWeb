@@ -49,6 +49,19 @@ body {
     box-shadow: 0 0 0px rgba(255, 255, 255, 0);
   }
 }
+
+/* This specifically targets the dark/light mode toggle button */
+#modeToggle {
+  margin-left: -20px;
+  background-color: transparent;
+  color: yellow;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: none;
+  border: none;
+}
+/* Navigational button attributes */
 .navi-button {
   display: inline-block;
   width: 150px;
@@ -62,22 +75,16 @@ body {
   cursor: pointer;
   animation: pulse 2s infinite;
 }
-/* This specifically targets the dark/light mode toggle button */
-#modeToggle {
-  margin-left: -20px;
-  background-color: transparent;
-  color: yellow;
-  font-size: 1.5rem;
-  padding: 10px;
-  border-radius: 50%;
-  box-shadow: none;
-  border: none;
-}
 
+/* Hovering over the Navigational Buttons makes it glow */
 .navi-button:hover {
   background-color: rgba(255, 255, 255, 0.2);
   cursor: pointer;
   transition: background-color 0.3s;
+}
+.navi-button:active {
+  transform: scale(0.98);
+  background-color: #1c5a89;
 }
 .social {
   padding-top: 20px;
