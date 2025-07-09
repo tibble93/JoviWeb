@@ -33,6 +33,7 @@ body {
   align-items: center;
   padding: 10px 0;
   z-index: 1000;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .me {
@@ -164,6 +165,7 @@ body {
   bottom: 0;
   width: 100%;
   line-height: 1.2;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 @keyframes text-focus-in {
@@ -179,4 +181,15 @@ body {
 
 .text-focus-in {
   animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both;
+}
+
+body.light-mode {
+  background-color: #b9b9b9;
+  color: #222;
+}
+
+body.light-mode .top_nav,
+body.light-mode .footer {
+  background-color: #b9b9b9;
+  color: #000;
 }
