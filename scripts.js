@@ -11,7 +11,7 @@ document.getElementById("modeToggle").addEventListener("click", function () {
     icon.src = "images/darkmode.svg";
     icon.alt = "Moon icon";
   } else {
-    icon.src = "images/sun.svg";
+    icon.src = "images/lightmode.svg";
     icon.alt = "Sun icon";
   }
 
