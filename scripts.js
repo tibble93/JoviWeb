@@ -6,4 +6,13 @@ document.getElementById("modeToggle").addEventListener("click", function () {
 
     document.body.classList.toggle("light-mode");
 
+    const icon = document.getElementById("themeIcon");
+  if (document.body.classList.contains("light-mode")) {
+    icon.src = "images/darkmode.svg";
+    icon.alt = "Moon icon";
+  } else {
+    icon.src = "images/sun.svg";
+    icon.alt = "Sun icon";
+  }
+
 });
