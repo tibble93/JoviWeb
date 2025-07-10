@@ -24,7 +24,8 @@ if (document.body.classList.contains("light-mode")) {
   my_pic.src = "images/me_dark.png";
 }
 });
-
+//-------------------------------------------------------------------------------------------------------//
+//-------------------------------------------------------------------------------------------------------//
 const introText = "Welcome to my website. Thanks for stopping by and feel free to have a look around." 
                   "You're more than welcome to leave a comment.";
 const introElement = document.getElementById("intro_Message");
@@ -34,7 +35,7 @@ function typeIntro() {
   if (charIndex < introText.length) {
     introElement.textContent += introText.charAt(charIndex);
     charIndex++;
-    setTimeout(typeIntro, 40); // Speed: smaller = faster
+    setTimeout(typeIntro, 40); 
   }
 }
 
