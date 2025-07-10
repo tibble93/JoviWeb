@@ -42,6 +42,14 @@ body {
   border-radius: 12px; 
 }
 
+.me2 {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
 #my_pic {
   transition: opacity 0.4s ease;
 }
