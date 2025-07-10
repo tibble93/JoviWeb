@@ -1,4 +1,4 @@
-fetch("nav.html")
+fetch("https://tibble93.github.io/JoviWeb/nav.html")
   .then(res => res.text())
   .then(data => {
     document.getElementById("nav-placeholder").innerHTML = data;
