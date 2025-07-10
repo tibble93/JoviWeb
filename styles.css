@@ -42,6 +42,10 @@ body {
   border-radius: 12px; 
 }
 
+#my_pic {
+  transition: opacity 0.4s ease;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
