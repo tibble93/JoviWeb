@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("fade-in");
 });
 
-
+//---------------------------------------------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   const aboutmeText = document.getElementById("aboutmeText");
   const text = "Hi, I'm Jovi. I'm a warehouse worker, college student, and I love coding, gaming, and dark ambient music.";
@@ -38,4 +38,19 @@ document.addEventListener("DOMContentLoaded", () => {
   if (aboutText) {
     type();
   }
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const clickSound = document.getElementById("clickSound");
+  const navButtons = document.querySelectorAll(".navi-button");
+
+  navButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      if (clickSound) {
+        clickSound.currentTime = 0; 
+        clickSound.play();
+      }
+    });
+  });
 });
