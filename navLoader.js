@@ -3,7 +3,6 @@ fetch("https://tibble93.github.io/JoviWeb/nav.html")
   .then(data => {
     document.getElementById("nav-placeholder").innerHTML = data;
 
-    // Reattach JS functionality after nav is loaded
     const modeToggle = document.getElementById("modeToggle");
     if (modeToggle) {
       modeToggle.addEventListener("click", () => {
@@ -13,7 +12,7 @@ fetch("https://tibble93.github.io/JoviWeb/nav.html")
           sound.play();
         }
 
-        // Toggle light/dark mode
+        
         document.body.classList.toggle("light-mode");
         const icon = document.getElementById("themeIcon");
 
