@@ -202,3 +202,18 @@ body.light-mode .footer {
 body.light-mode #themeIcon {
   transform: rotate(180deg);
 }
+
+
+#introMessage {
+  font-family: 'MedodicaRegular', Arial;
+  white-space: pre;
+  overflow: hidden;
+  border-right: 2px solid white;
+  animation: blink 0.7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
