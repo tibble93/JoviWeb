@@ -14,3 +14,9 @@ function typeIntro() {
   }
 }
 window.addEventListener("DOMContentLoaded", typeIntro);
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("fade-in");
+});
