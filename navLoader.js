@@ -20,7 +20,16 @@ fetch("https://tibble93.github.io/JoviWeb/nav.html")
           const isLight = document.body.classList.contains("light-mode");
           icon.src = isLight ? "images/darkmode.svg" : "images/lightmode.svg";
           icon.alt = isLight ? "Moon icon" : "Sun icon";
+
+          const my_pic = document.getElementById("my_pic");
+          if (my_pic) {
+            my_pic.src = isLight ? "images/me_light.png" : "images/me_dark.png";
+  }  
+
+
         }
       });
     }
   });
+
+
