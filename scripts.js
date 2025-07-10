@@ -40,17 +40,3 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-
-document.addEventListener("DOMContentLoaded", () => {
-  const clickSound = document.getElementById("clickSound");
-  const navButtons = document.querySelectorAll(".navi-button");
-
-  navButtons.forEach(button => {
-    button.addEventListener("click", () => {
-      if (clickSound) {
-        clickSound.currentTime = 0; 
-        clickSound.play();
-      }
-    });
-  });
-});
