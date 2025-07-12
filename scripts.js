@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  if (aboutText) {
+  if (aboutmeText) {
     type();
   }
 });
