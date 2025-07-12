@@ -1,7 +1,7 @@
 
 //-------------------------------------------------------------------------------------------------------//
 //-------------------------------------------------------------------------------------------------------//
-const introText = "Welcome to my website. Thanks for stopping by and feel free to have a look around." 
+const introText = "Welcome to my website. Thanks for stopping by and feel free to have a look around." + 
                   "You're more than welcome to leave a comment.";
 const introElement = document.getElementById("intro_Message");
 let charIndex = 0;
@@ -24,7 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //---------------------------------------------------------------------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
   const aboutmeText = document.getElementById("aboutmeText");
-  const text = "Hi, I'm Jovi. I'm a warehouse worker, college student, and I love coding, gaming, and dark ambient music.";
+  const text = "Hi, I'm Jovi. I'm currently in my early stages of college studying programming and web development." +
+               "In my free time I enjoy bodybuilding, playing video games, and playing with my cats. If you would" +
+               "like to reach out, please head over to my contact page and send me an email! Thanks!";
   let index = 0;
 
   function type() {
