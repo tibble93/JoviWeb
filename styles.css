@@ -234,7 +234,6 @@ body.light-mode #themeIcon {
 
 #aboutmeText {
   margin-top: -200px;
-  max-width: 600px;
   white-space: pre-wrap;
   line-height: 1.6;  
 }
