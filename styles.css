@@ -232,5 +232,7 @@ body.light-mode #themeIcon {
   }
 }
 
-
+#aboutmeText {
+  margin-top: -20px; 
+}
 
