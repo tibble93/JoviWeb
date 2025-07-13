@@ -162,6 +162,20 @@ body {
   transition: transform 0.3s ease;
 }
 
+.social a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+.social a:focus,
+.social a:visited,
+.social a:hover {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
 .social img:hover {
   transform: scale(1.1);
 }
