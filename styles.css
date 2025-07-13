@@ -43,9 +43,13 @@ body {
 }
 
 .me {
+  position: fixed;
+  left: 50px;
+  top: 150px;
   width: 325px;  
   height: 300px;     
   border-radius: 12px; 
+  z-index: 1;
 }
 
 .me2 {
