@@ -263,14 +263,3 @@ body.light-mode #themeIcon {
   line-height: 1.6;  
 }
 
-
-
-.spotify {
-  max-width: 400px; 
-  margin: 0 auto;
-  padding: 20px 0;
-}
-
-.spotify iframe {
-  max-width: 100%;
-}
