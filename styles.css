@@ -101,8 +101,6 @@ body {
   width: 300px;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-  margin-left: -1000px;
-  margin-top: 80px;
 }
 
 #my_pic {
@@ -293,8 +291,23 @@ body.light-mode #themeIcon {
   }
 }
 
+
+
+
+
+.about-wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
 #aboutmeText {
-  margin-top: -200px;
+  margin-top: -40px;
   white-space: pre-wrap;
   line-height: 1.6;  
 }
