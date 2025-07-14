@@ -317,7 +317,8 @@ body.light-mode #themeIcon {
 
 
 .spotify-player {
-  margin-top: 20px;
+  position: absolute;
+  margin-top: 340px;
   max-width: 600px;
   width: 100%;
 }
