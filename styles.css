@@ -387,7 +387,8 @@ form {
 }
 
 .text_center p {
-  margin-top: 20px; 
+  margin-top: 20px;
+  display: inline-block; 
 }
 
 
