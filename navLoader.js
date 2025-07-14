@@ -28,9 +28,7 @@ fetch("nav.html")
            
           const my_contact_pic = document.getElementById("my_contact_pic");
           if (my_contact_pic) {
-            my_contact_pic.src = isLight 
-            ? "images/me_contact_light.png" 
-            : "images/me_contact_dark.png";
+            my_contact_pic.src = isLight ? "images/me_contact_light.png" : "images/me_contact_dark.png";
           }
 
 
