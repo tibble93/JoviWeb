@@ -3,7 +3,10 @@ fetch("nav.html")
   .then(data => {
     document.getElementById("nav-placeholder").innerHTML = data;
 
+    initThemeToggle();
+
     //------Light/darl mode toggle + sound---------------------------------
+  function initThemeToggle() {
     const modeToggle = document.getElementById("modeToggle");
     if (modeToggle) {
       modeToggle.addEventListener("click", () => {
@@ -36,7 +39,7 @@ fetch("nav.html")
         }
       });
     }
-
+  }  
     //------------------navigation button click sound-------------------------------
     const clickSound = document.getElementById("clickSound");
     const navButtons = document.querySelectorAll(".navi-button");
