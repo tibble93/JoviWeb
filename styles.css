@@ -319,6 +319,7 @@ body.light-mode #themeIcon {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  height: auto;
   width: 100%;
 }
 
