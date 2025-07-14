@@ -7,6 +7,8 @@ const introElement = document.getElementById("intro_Message");
 let charIndex = 0;
 
 function typeIntro() {
+  if (!introElement) return;
+
   if (charIndex < introText.length) {
     introElement.textContent += introText.charAt(charIndex);
     charIndex++;
