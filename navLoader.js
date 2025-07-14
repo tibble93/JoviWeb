@@ -15,9 +15,10 @@ fetch("nav.html")
 
         document.body.classList.toggle("light-mode");
 
+        const isLight = document.body.classList.contains("light-mode");
+
         const icon = document.getElementById("themeIcon");
         if (icon) {
-          const isLight = document.body.classList.contains("light-mode");
           icon.src = isLight ? "images/darkmode.svg" : "images/lightmode.svg";
           icon.alt = isLight ? "Moon icon" : "Sun icon";
 
@@ -30,9 +31,6 @@ fetch("nav.html")
           if (my_contact_pic) {
             my_contact_pic.src = isLight ? "images/me_contact_light.png" : "images/me_contact_dark.png";
           }
-
-
-
 
           }
         }
