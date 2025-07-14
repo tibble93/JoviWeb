@@ -25,6 +25,22 @@ body {
   transition: opacity 0.5s ease-in-out;
 }
 
+.contact_Main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 50px;
+  flex: 1;
+}
+
+.contact_Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 .fade-in {
   opacity: 1;
 }
