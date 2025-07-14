@@ -126,7 +126,8 @@ body {
   display: flex;
   gap: 15px;
 }
-/* This specifically targets the dark/light mode toggle button */
+
+
 .left-nav {
   position: absolute;
   left: 20px;
@@ -332,6 +333,12 @@ body.light-mode #themeIcon {
 }
 
 
+.contact_Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
 
 .container {
   margin-top: 20px;
@@ -362,14 +369,6 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-
-.column {
-  flex: 1;
-  max-width: 500px;
-  padding: 20px;
-  margin-top: 6px;
-}
-
 .row {
   display: flex;
   justify-content: center;     
@@ -379,6 +378,13 @@ input[type=submit]:hover {
   flex-wrap: wrap;
 }
 
+form {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 5px;
+}
 
 
 
