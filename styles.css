@@ -342,7 +342,7 @@ body.light-mode #themeIcon {
 
 .container {
   margin-top: 20px;
-  max-width: 600px;                   
+  max-width: 450px;                   
   background-color: #000000;
   border-radius: 5px;
   padding: 20px;
@@ -384,6 +384,10 @@ form {
   padding: 20px;
   background-color: #000000;
   border-radius: 5px;
+}
+
+.text_center {
+  margin-top: 20px; 
 }
 
 
