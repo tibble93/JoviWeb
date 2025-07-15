@@ -395,8 +395,7 @@ form {
   border-radius: 5px;
 }
 
-body.light-mode form
-body.light-mode .container {
+body.light-mode form {
   background-color: #b9b9b9;
 }
 
