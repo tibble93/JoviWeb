@@ -355,7 +355,9 @@ body.light-mode .contact_Wrapper {
   border-radius: 5px;
   padding: 20px;
 }
-
+body.light-mode .container {                 
+  background-color: #b9b9b9;
+}
 
 input[type=text], select, textarea {
   width: 100%;
