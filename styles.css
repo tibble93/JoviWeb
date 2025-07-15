@@ -393,7 +393,7 @@ form {
   background-color: #000000;
   border-radius: 5px;
 }
-form.light-mode {
+body.ight-mode form {
   background-color: #b9b9b9;
 
 }
