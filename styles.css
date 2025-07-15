@@ -393,7 +393,10 @@ form {
   background-color: #000000;
   border-radius: 5px;
 }
+form.light-mode {
+  background-color: #b9b9b9;
 
+}
 
 
 
