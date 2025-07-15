@@ -356,6 +356,7 @@ body.light-mode .contact_Wrapper {
   padding: 20px;
 }
 
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -374,7 +375,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #3f443f;
 }
 
 .row {
@@ -394,7 +395,8 @@ form {
   border-radius: 5px;
 }
 
-body.light-mode form {
+body.light-mode form
+body.light-mode .container {
   background-color: #b9b9b9;
 }
 
