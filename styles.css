@@ -334,10 +334,18 @@ body.light-mode #themeIcon {
 
 
 .contact_Wrapper {
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+
   margin-top: 40px;
+}
+
+body.light-mode .contact_Wrapper {
+  background-color: white;
+  color: black;
 }
 
 .container {
