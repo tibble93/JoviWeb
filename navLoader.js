@@ -64,7 +64,6 @@ function updateThemeAssets() {
       : "images/me_project_dark.png";
 
 
-
   }
 }
 
