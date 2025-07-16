@@ -46,7 +46,3 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-window.addEventListener("DOMContentLoaded", () => {
-  initThemeToggle();
-  updateThemeAssets();
-});
