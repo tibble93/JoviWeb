@@ -56,6 +56,15 @@ function updateThemeAssets() {
     my_contact_pic.src = isLight
       ? "images/me_contact_light.png"
       : "images/me_contact_dark.png";
+
+  const my_project_pic = document.getElementById("my_project_pic");
+  if (my_project_pic) {
+    my_project_pic.src = isLight
+      ? "images/me_project_light.png"
+      : "images/me_project_dark.png";
+
+
+
   }
 }
 
