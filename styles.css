@@ -404,9 +404,9 @@ body.light-mode form {
 
 .me_Project {
   position: absolute;
-  left: 1250px;
-  top: 270px;
-  width: 325px;  
+  left: 250px;
+  top: 200px;
+  width: 390px;  
   height: 300px;     
   border-radius: 12px; 
   z-index: 1;
