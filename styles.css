@@ -92,11 +92,11 @@ body {
 
 .me_Contact {
   position: absolute;
-  left: 1250px;
-  top: 270px;
-  width: 325px;  
-  height: 300px;     
-  border-radius: 12px; 
+  left: 860px;
+  top: 130px;
+  width: 325px;
+  height: 300px;
+  border-radius: 12px;
   z-index: 1;
 }
 
@@ -355,7 +355,7 @@ body.light-mode .contact_Wrapper {
 }
 
 .container {
-  margin-top: -350px;
+  margin-top: 30px;
   max-width: 450px;                   
   background-color: #000000;
   border-radius: 5px;
