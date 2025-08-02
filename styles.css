@@ -243,9 +243,11 @@ body {
   font-size: 14px;
   border-top: 1px solid #444;
   width: 100%;
-  line-height: 1.2;
-  margin-top: auto;
-  
+  line-height: 1.2; 
+}
+
+.footer p {
+  margin: 0;
 }
 
 @keyframes text-focus-in {
@@ -433,3 +435,6 @@ body.light-mode form {
     height: auto;
   }
 }
+
+
+* { outline: 1px solid rgba(0,255,0,0.3); }
