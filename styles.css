@@ -56,6 +56,10 @@ body {
   flex: 1;
 }
 
+.project_Wrapper{
+  flex: 1;
+}
+
 .wrapper {
   flex: 1 0 auto;
   min-height: 0;
