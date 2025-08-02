@@ -8,21 +8,22 @@
   box-sizing: border-box;
 }
 
-html, body {
-  min-height: 100vh;
+html {
+  height: 100%;
   margin: 0;
+  padding: 0;
+}
+
+
+body {
   display: flex;
   flex-direction: column;
-}
-body {
-  background-color: #000000;
-  color: #000000;
+  min-height: 100vh;  
   margin: 0;
-  font-family: 'MedodicaRegular', Arial;
-  color: white;
+  padding: 0;
+  background: #000;
+  color: #fff;
   text-align: center;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .contact_Main {
