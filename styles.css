@@ -59,6 +59,9 @@ body {
 .project_Wrapper{
   flex: 1;
 }
+.aboutme_Wrapper{
+  flex: 1;
+}
 
 .wrapper {
   flex: 1 0 auto;
