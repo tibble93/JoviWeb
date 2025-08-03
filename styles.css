@@ -462,14 +462,10 @@ body.light-mode form {
 }
 
 
-hr.pixel {
+hr {
   color: white;
   border: none;
-  height: 8px;
-  background: repeating-linear-gradient(
-    90deg,
-    #000 0 4px,
-    #fff 4px 8px
-  );
-  image-rendering: pixelated;
+  border-top: 2px dashed gray;
+  width: 70%;
+  margin: 20px auto;
 }
