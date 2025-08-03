@@ -460,3 +460,12 @@ body.light-mode form {
     height: auto;
   }
 }
+
+
+hr {
+  color: white;
+  border: none;
+  border-top: 2px dashed gray;
+  width: 70%;
+  margin: 20px auto;
+}
